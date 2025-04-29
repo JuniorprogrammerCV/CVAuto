@@ -10,9 +10,9 @@ module.exports = {
     logging: false
   },
   test: {
-
+    // ... similar ao development
   },
   production: {
-  
+    // ... similar ao development
   }
 };

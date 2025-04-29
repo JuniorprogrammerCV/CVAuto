@@ -1,10 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import RegisterLoginScreen from './pages/RegisterLoginScreen/RegisterLoginScreen.jsx'
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <RegisterLoginScreen />
   </StrictMode>,
 )
